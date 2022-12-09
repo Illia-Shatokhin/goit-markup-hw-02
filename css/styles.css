@@ -7,6 +7,8 @@
     background-color: var(--back);
     color: var(--all-text);
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
 }
 
 a, a:visited {
@@ -18,7 +20,6 @@ a, a:visited {
 .logo, .logo:visited {
     color: var(--logo);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -27,21 +28,34 @@ a, a:visited {
     text-transform: uppercase;    
 }
 
+header span {
+    color: var(--all-text);
+}
+
+footer span {
+    color: var(--back-for-team);
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
 ul {
     list-style: none;
 }
 
 nav {
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
 
-address {
-    font-style: normal;
-    font-weight: 400;
+address, address a {
+    
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -53,7 +67,6 @@ address {
 }
 
 h1 {
-    font-style: normal;
     font-weight: 600;
     font-size: 56px;
     line-height: 60px;
@@ -64,9 +77,6 @@ h1 {
 
 .head button {
     background-color: var(--logo);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
@@ -74,7 +84,6 @@ h1 {
 }
 
 h3 {
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -82,8 +91,6 @@ h3 {
 }
 
 p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -92,7 +99,6 @@ p {
 }
 
 h2 {
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
@@ -107,4 +113,22 @@ h2 {
 
 footer {
     background-color: var(--all-text);
+}
+
+.portfolio button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logo);
+}
+
+address:hover, address:focus {
+
+}
+
+button {
+    cursor: pointer;
 }
