@@ -1,30 +1,27 @@
-/* Colors
-IRIS #4D5AE5
-NAVY BLUE #2E2F42
-green #31D0AA
-slate #434455
-light slate #8E8F99
-cornflower #E7E9FC
-cloud #F4F4FD
-rgba(46, 47, 66, 0.4);
-*/
-
-body {
-    background-color: #FFFFFF;
-    color: #2E2F42;
-    font-family: 'Roboto';    
+:root {
+    --all-text: #2E2F42;
+    --logo: #4D5AE5;
+    --small-text: #434455;
+    --back-for-team: #F4F4FD;
+    --back: #FFFFFF;
+    background-color: var(--back);
+    color: var(--all-text);
+    font-family: 'Roboto';
 }
 
-.logo, .logo:visited {
-    color: #2E2F42;
-    text-transform: uppercase;
+a, a:visited {
     text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
+    color: var(--all-text);
 }
-.logo span, .logo span:visited {
-    color: #4D5AE5;
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    
+}
+
+.logo span{
+    color: var(--logo);
 }
