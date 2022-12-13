@@ -1,4 +1,4 @@
-body {
+:root {
     --iris: #4D5AE5;
     --navy-blue: #2E2F42;
     --green: #31D0AA;
@@ -8,6 +8,7 @@ body {
     --cloud: #F4F4FD;
     --navy-blue-modal: rgba(46, 47, 66, 0.4);
     --background: #FFFFFF;
+    --order-hover: #404BBF;
     font-family: 'Roboto';
     font-style: normal;
     color: var(--navy-blue);
@@ -80,6 +81,7 @@ a {
 }
 
 .order-button {
+    font-family: 'Roboto';
     background: var(--iris);
     font-weight: 600;
     font-size: 16px;
@@ -90,7 +92,7 @@ a {
 }
 
 .order-button:hover, .order-button:focus {
-    background-color: var(#404BBF);
+    background-color: var(--order-hover);
 }
 
 .third-header {
@@ -139,6 +141,7 @@ a {
 }
 
 .portfolio-button {
+    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -149,11 +152,20 @@ a {
     cursor: pointer;
 }
 
-.portfolio-box {
-    background-color: var(--cloud);
-}
-
 .portfolio-button:hover, .portfolio-button:focus {
     background-color: var(--iris);
     color: var(--background);
 }
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
