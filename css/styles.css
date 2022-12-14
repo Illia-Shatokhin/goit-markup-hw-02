@@ -9,7 +9,7 @@
     --navy-blue-modal: rgba(46, 47, 66, 0.4);
     --background: #FFFFFF;
     --order-hover: #404BBF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--navy-blue);
     background-color: var(--background);
