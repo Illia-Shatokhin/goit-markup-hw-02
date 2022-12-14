@@ -9,6 +9,9 @@
     --navy-blue-modal: rgba(46, 47, 66, 0.4);
     --background: #FFFFFF;
     --order-hover: #404BBF;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--navy-blue);
@@ -61,6 +64,10 @@ a {
     letter-spacing: 0.02em;
     color: var(--slate);
     text-decoration: none;
+}
+
+.tel {
+    text-transform: uppercase;
 }
 
 .address:hover, .address:focus {
@@ -168,4 +175,4 @@ a {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-} 
+}
